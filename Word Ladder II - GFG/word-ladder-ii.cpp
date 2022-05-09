@@ -8,7 +8,7 @@ using namespace std;
 
 class Solution {
 public:
-    vector<vector<string>> result;
+ vector<vector<string>> result;
     
     void DFS(string beginWord, string endWord, unordered_map<string, set<string>> &adjList, vector<string> &path){
         path.push_back(beginWord);
@@ -18,46 +18,109 @@ public:
             return;
         }
         for(auto x: adjList[beginWord]){
+            //cout << beginWord <<" "<<x << endl;
             DFS(x, endWord, adjList, path);
         }
         path.pop_back();
     }
     
     vector<vector<string>> findSequences(string beginWord, string endWord, vector<string>& wordList) {
+        // Intution here
+        /*
+            Similar to Word Ladder I
+            just need to store parent string 
+        */
+        // Code here
         unordered_map<string, set<string>> adjList;
-        set<string> dict(wordList.begin(), wordList.end());
+        int i,level,n = wordList.size() , m = beginWord.size();
         
-        queue<string> queue;
-        queue.push(beginWord);
-        unordered_map<string, int> isVisited;
-        isVisited[beginWord] = 1;
-        while(!queue.empty()){
-            string currWord = queue.front();
-            queue.pop();
-            string tempWord = currWord;
-            for(int i = 0; i < currWord.length(); i++){
-                for(char x = 'a'; x <= 'z'; x++){
-                    if(tempWord[i] == x)
-                        continue;
-                    tempWord[i] = x;
-                    if(dict.count(tempWord) > 0){
-                        if(isVisited.count(tempWord) == 0){
-                            isVisited[tempWord] = isVisited[currWord]+1;
-                            queue.push(tempWord);
-                            adjList[currWord].insert(tempWord);
-                        }
-                        else if(isVisited[tempWord] == isVisited[currWord] + 1){
-                            adjList[currWord].insert(tempWord);
-                        }
-                    }
-                }
-                tempWord[i] = currWord[i];
+        if(beginWord == endWord)
+        return {{beginWord}};
+        
+        //check if targetWord exist or not
+        for(i=0;i<n;++i)
+        {
+            if(wordList[i] == endWord)
+            {
+                break;
             }
         }
-        vector<string> path;
+        
+        if(i == n)
+        {
+            return result;
+        }
+        
+       
+        //bfs
+        level = 0;
+        int sizeofQ,j,c=0 ,k;
+        queue<string> q;
+        
+        // visited map
+        unordered_map<string,int> mp;
+        
+        //initialize queue 
+        q.push(beginWord);
+        mp[beginWord] = 1;
+        while(!q.empty())
+        {
+            sizeofQ = q.size();
+            ++level;
+            
+            //level traversal
+            for(i=0;i<sizeofQ;++i)
+            {
+                 string s = q.front();
+                 q.pop();
+               // cout << s << endl;
+                 // finding next node
+                 for(j=0;j<n;++j)
+                 {
+                     // same string or visited string
+                     if(s == wordList[j])
+                     continue;
+                    
+                         c = 0;
+                         string s1 = wordList[j];
+                         
+                         // find number of different characters
+                         for(k=0;k<m;++k)
+                         {
+                             if(s[k] != s1[k])
+                             {
+                                 c++;
+                                if(c==2)
+                                break;
+                             }
+                         }
+                         
+                         // if count is equal to 1 then it is next node
+                         if(c == 1)
+                         {
+                             if(mp.find(s1) == mp.end())
+                             {
+                                 mp[s1] = level+1;
+                                 q.push(s1);
+                                 adjList[s].insert(s1);
+                             }
+                             else if(mp[s1] == mp[s]+1)
+                             {
+                                  adjList[s].insert(s1);
+                             }
+                            
+                         }
+                     
+                 }
+                 
+            }
+        }
+        
+         vector<string> path;
         DFS(beginWord, endWord, adjList, path);
         
         return result;
+
     }
 };
 
