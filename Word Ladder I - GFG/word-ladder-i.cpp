@@ -51,7 +51,7 @@ public:
                  // finding next node
                  for(j=0;j<n;++j)
                  {
-                     // same string
+                     // same string or visited string
                      if(mp.find(wordList[j]) != mp.end())
                      continue;
                     
