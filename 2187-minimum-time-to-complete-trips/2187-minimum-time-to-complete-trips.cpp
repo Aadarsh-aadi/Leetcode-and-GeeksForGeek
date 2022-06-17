@@ -8,12 +8,17 @@ public:
         for(i=0;i<n;++i)
         {
             c += (val/time[i]);
+            if(c >= trips)
+                return true;
         }
-        return (c >= trips);
+        return false;
     }
     long long minimumTime(vector<int>& time, int totalTrips) 
     {
-       long long int l=1,r=1e14,mid,ans;
+       long long int l=1,r,mid,ans;
+       long low=INT_MAX;
+       for(auto i:time){low=min(low,long(i));}
+       r=totalTrips*low;
         while(l<=r)
         {
             mid = l + (r-l)/2;
