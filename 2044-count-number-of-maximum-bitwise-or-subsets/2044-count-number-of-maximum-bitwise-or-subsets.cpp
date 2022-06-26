@@ -3,9 +3,12 @@ public:
     int countMaxOrSubsets(vector<int>& nums) 
     {
         long long int bitLen,i,j,n = nums.size();
-        long long int mx = 0 , count = 0 , orNum;
+        long long int mx = 0 , count = 0 , orNum = 0;
         
         bitLen = 1<<n;
+        
+        for(i=0;i<n;++i)
+            mx |= nums[i];
         
         for(i=1;i<bitLen;++i)
         {
@@ -18,12 +21,7 @@ public:
                 }
             }
             //cout << orNum <<endl;
-            if(orNum > mx)
-            {
-                mx = orNum;
-                count = 1;
-            }
-            else if(mx == orNum)
+             if(mx == orNum)
             {
                 count++;
             }
