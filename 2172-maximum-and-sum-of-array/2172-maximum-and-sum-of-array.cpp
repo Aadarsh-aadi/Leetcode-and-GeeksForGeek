@@ -14,7 +14,7 @@ public:
             if(mask&(1<<j))
                 continue;
             int temp = nums[index]&((j/2) + 1);
-            mn = max(mn,temp + solve(mask|(1<<j),index+1,nums,slots,n));
+            mn = max(mn,temp + solve(mask^(1<<j),index+1,nums,slots,n));
         }
         
         return dp[index][mask] = mn;
