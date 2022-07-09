@@ -5,18 +5,16 @@ public:
         int i , n = nums.size();
         vector<int> dp(n);
         dp[0] = nums[0];
-        deque<int> pq;
+        multiset<int> pq;
         
-        pq.push_back(0);
+        pq.insert(nums[0]);
         
         for(i=1;i<n;++i)
         {
-            if(pq.front() < i - k)
-                pq.pop_front();
-            dp[i] = nums[i] + dp[pq.front()];
-            while(pq.empty() == false && dp[pq.back()] <= dp[i])
-                pq.pop_back();
-            pq.push_back(i);
+           if(i > k)
+               pq.erase(pq.find(dp[i-k-1]));
+            dp[i] = *pq.rbegin() + nums[i];
+            pq.insert(dp[i]);
         }
         
         return dp[n-1];
