@@ -1,39 +1,40 @@
 class Solution {
 public:
     vector<vector<int>> dp;
-    int binary_search(vector<vector<int>>& events , int start , int end , int num)
+    int find(vector<vector<int>>&events,int start,int toFind)
     {
-        int ans = -1 , mid;
-        while(start<=end)
+        int low=start;
+        int high=events.size()-1;
+        int ans=-1;
+        while(low<=high)
         {
-            mid = start + (start - end)/2;
-            if(events[mid][0] > num)
+            int mid=(low+high)/2;
+            
+            if(events[mid][0]>toFind)
             {
-                ans = mid;
-                end = mid - 1;
+                ans=mid;
+              high=mid-1;
             }
             else
-                start = mid + 1;
+            {
+                low=mid+1;
+            }
         }
-        
+       // cout<<ans<<endl;
         return ans;
+        
     }
     int recur(vector<vector<int>>& events , int idx , int k , int end)
     {
-        if(idx == end || idx == -1)
+        if(idx >= end || idx == -1)
             return 0;
         if(k == 0)
             return 0;
         if(dp[idx][k]!=-1)
             return dp[idx][k];
-        int i;
-       for(i=idx+1;i<events.size();i++)
-        {
-            if(events[i][0]>events[idx][1])
-            {
-                break;
-            }
-        }
+       
+        int i=find(events,idx+1,events[idx][1]);
+        
         int included = events[idx][2] + recur(events,i,k-1,end);
         int notIncluded = recur(events,idx+1,k,end);
         
