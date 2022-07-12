@@ -39,7 +39,7 @@ public:
     vector<int> Reverse(stack<int> St)
     {
         s = St;
-        reverse();
+       // reverse();
         vector<int> ans;
         while(s.empty() == false)
         {
