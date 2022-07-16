@@ -14,7 +14,7 @@ public:
                     
             }
             
-            cout << maxDigit[i] << " "<<i << endl;
+            //cout << maxDigit[i] << " "<<i << endl;
         }
         
         if(maxDigit[target] < 0)
