@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0213-house-robber-ii](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0213-house-robber-ii) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -23,4 +24,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0394-decode-string](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0394-decode-string) |
+## Two Pointers
+|  |
+| ------- |
+| [2271-rearrange-array-elements-by-sign](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/2271-rearrange-array-elements-by-sign) |
+## Simulation
+|  |
+| ------- |
+| [2271-rearrange-array-elements-by-sign](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/2271-rearrange-array-elements-by-sign) |
 <!---LeetCode Topics End-->
