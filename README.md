@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0213-house-robber-ii](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0213-house-robber-ii) |
 | [1646-kth-missing-positive-number](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/1646-kth-missing-positive-number) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2305-append-k-integers-with-minimal-sum](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/2305-append-k-integers-with-minimal-sum) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -41,4 +42,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1646-kth-missing-positive-number](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/1646-kth-missing-positive-number) |
+## Math
+|  |
+| ------- |
+| [2305-append-k-integers-with-minimal-sum](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/2305-append-k-integers-with-minimal-sum) |
+## Greedy
+|  |
+| ------- |
+| [2305-append-k-integers-with-minimal-sum](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/2305-append-k-integers-with-minimal-sum) |
+## Sorting
+|  |
+| ------- |
+| [2305-append-k-integers-with-minimal-sum](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/2305-append-k-integers-with-minimal-sum) |
 <!---LeetCode Topics End-->
