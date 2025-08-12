@@ -18,10 +18,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0394-decode-string](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0394-decode-string) |
+| [0402-remove-k-digits](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0402-remove-k-digits) |
 ## Stack
 |  |
 | ------- |
 | [0394-decode-string](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0394-decode-string) |
+| [0402-remove-k-digits](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0402-remove-k-digits) |
 ## Recursion
 |  |
 | ------- |
@@ -49,9 +51,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [0402-remove-k-digits](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0402-remove-k-digits) |
 | [2305-append-k-integers-with-minimal-sum](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/2305-append-k-integers-with-minimal-sum) |
 ## Sorting
 |  |
 | ------- |
 | [2305-append-k-integers-with-minimal-sum](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/2305-append-k-integers-with-minimal-sum) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0402-remove-k-digits](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0402-remove-k-digits) |
 <!---LeetCode Topics End-->
