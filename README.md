@@ -20,11 +20,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0394-decode-string](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0394-decode-string) |
 | [0402-remove-k-digits](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0402-remove-k-digits) |
+| [1159-smallest-subsequence-of-distinct-characters](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/1159-smallest-subsequence-of-distinct-characters) |
 ## Stack
 |  |
 | ------- |
 | [0394-decode-string](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0394-decode-string) |
 | [0402-remove-k-digits](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0402-remove-k-digits) |
+| [1159-smallest-subsequence-of-distinct-characters](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/1159-smallest-subsequence-of-distinct-characters) |
 | [1792-find-the-most-competitive-subsequence](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/1792-find-the-most-competitive-subsequence) |
 ## Recursion
 |  |
@@ -54,6 +56,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0402-remove-k-digits](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0402-remove-k-digits) |
+| [1159-smallest-subsequence-of-distinct-characters](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/1159-smallest-subsequence-of-distinct-characters) |
 | [1792-find-the-most-competitive-subsequence](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/1792-find-the-most-competitive-subsequence) |
 | [2305-append-k-integers-with-minimal-sum](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/2305-append-k-integers-with-minimal-sum) |
 ## Sorting
@@ -64,5 +67,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0402-remove-k-digits](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0402-remove-k-digits) |
+| [1159-smallest-subsequence-of-distinct-characters](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/1159-smallest-subsequence-of-distinct-characters) |
 | [1792-find-the-most-competitive-subsequence](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/1792-find-the-most-competitive-subsequence) |
 <!---LeetCode Topics End-->
