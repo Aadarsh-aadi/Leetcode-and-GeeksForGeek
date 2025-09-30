@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0179-largest-number](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0179-largest-number) |
 | [0213-house-robber-ii](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0213-house-robber-ii) |
 | [1646-kth-missing-positive-number](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/1646-kth-missing-positive-number) |
 | [1792-find-the-most-competitive-subsequence](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/1792-find-the-most-competitive-subsequence) |
@@ -18,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0179-largest-number](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0179-largest-number) |
 | [0394-decode-string](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0394-decode-string) |
 | [0402-remove-k-digits](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0402-remove-k-digits) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/1159-smallest-subsequence-of-distinct-characters) |
@@ -55,6 +57,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [0179-largest-number](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0179-largest-number) |
 | [0402-remove-k-digits](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0402-remove-k-digits) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/1159-smallest-subsequence-of-distinct-characters) |
 | [1792-find-the-most-competitive-subsequence](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/1792-find-the-most-competitive-subsequence) |
@@ -62,6 +65,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0179-largest-number](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0179-largest-number) |
 | [2305-append-k-integers-with-minimal-sum](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/2305-append-k-integers-with-minimal-sum) |
 ## Monotonic Stack
 |  |
