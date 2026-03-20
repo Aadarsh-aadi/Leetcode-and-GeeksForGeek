@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1792-find-the-most-competitive-subsequence](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/1792-find-the-most-competitive-subsequence) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2305-append-k-integers-with-minimal-sum](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/2305-append-k-integers-with-minimal-sum) |
+| [2482-difference-between-ones-and-zeros-in-row-and-column](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/2482-difference-between-ones-and-zeros-in-row-and-column) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -42,6 +43,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2482-difference-between-ones-and-zeros-in-row-and-column](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/2482-difference-between-ones-and-zeros-in-row-and-column) |
 ## Linked List
 |  |
 | ------- |
@@ -75,4 +77,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0402-remove-k-digits](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0402-remove-k-digits) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/1159-smallest-subsequence-of-distinct-characters) |
 | [1792-find-the-most-competitive-subsequence](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/1792-find-the-most-competitive-subsequence) |
+## Matrix
+|  |
+| ------- |
+| [2482-difference-between-ones-and-zeros-in-row-and-column](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/2482-difference-between-ones-and-zeros-in-row-and-column) |
 <!---LeetCode Topics End-->
