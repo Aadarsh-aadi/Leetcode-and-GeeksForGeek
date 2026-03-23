@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0179-largest-number](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0179-largest-number) |
 | [0213-house-robber-ii](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0213-house-robber-ii) |
+| [0419-battleships-in-a-board](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0419-battleships-in-a-board) |
 | [0542-01-matrix](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0542-01-matrix) |
 | [1646-kth-missing-positive-number](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/1646-kth-missing-positive-number) |
 | [1792-find-the-most-competitive-subsequence](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/1792-find-the-most-competitive-subsequence) |
@@ -82,10 +83,15 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 |  |
 | ------- |
+| [0419-battleships-in-a-board](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0419-battleships-in-a-board) |
 | [0542-01-matrix](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0542-01-matrix) |
 | [2482-difference-between-ones-and-zeros-in-row-and-column](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/2482-difference-between-ones-and-zeros-in-row-and-column) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0542-01-matrix](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0542-01-matrix) |
+## Depth-First Search
+|  |
+| ------- |
+| [0419-battleships-in-a-board](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0419-battleships-in-a-board) |
 <!---LeetCode Topics End-->
