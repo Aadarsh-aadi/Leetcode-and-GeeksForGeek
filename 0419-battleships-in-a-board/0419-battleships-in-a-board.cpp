@@ -19,21 +19,13 @@ public:
             }
         }
 
-        // for(j=0;j<m;++j){
-        //     for(i=0;i<n;++i){
-        //         if(board[i][j]=='X'){
-        //             if(i+1 < n && board[i+1][j] == 'X'){
-        //                 while(i+1 < n && board[i+1][j] == 'X'){
-        //                     i++;
-        //                 }
-        //                 if(i == n-1 && board[i][j] == 'X'){}
-        //                 else
-        //                 ans++;
-        //             }
-        //         }
-        //     }
-        // }
-
         return ans;
     }
 };
+auto init = []()
+{ 
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    return 'c';
+}();
