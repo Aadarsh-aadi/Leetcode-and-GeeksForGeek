@@ -26,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0179-largest-number](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0179-largest-number) |
 | [0394-decode-string](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0394-decode-string) |
 | [0402-remove-k-digits](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0402-remove-k-digits) |
+| [0564-find-the-closest-palindrome](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0564-find-the-closest-palindrome) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/1159-smallest-subsequence-of-distinct-characters) |
 ## Stack
 |  |
@@ -58,6 +59,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0564-find-the-closest-palindrome](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0564-find-the-closest-palindrome) |
 | [2284-smallest-value-of-the-rearranged-number](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/2284-smallest-value-of-the-rearranged-number) |
 | [2305-append-k-integers-with-minimal-sum](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/2305-append-k-integers-with-minimal-sum) |
 ## Greedy
