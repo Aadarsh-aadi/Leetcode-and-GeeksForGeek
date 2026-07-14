@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0213-house-robber-ii](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0213-house-robber-ii) |
 | [0419-battleships-in-a-board](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0419-battleships-in-a-board) |
 | [0542-01-matrix](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0542-01-matrix) |
+| [0764-largest-plus-sign](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0764-largest-plus-sign) |
 | [1646-kth-missing-positive-number](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/1646-kth-missing-positive-number) |
 | [1792-find-the-most-competitive-subsequence](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/1792-find-the-most-competitive-subsequence) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -20,6 +21,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0213-house-robber-ii](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0213-house-robber-ii) |
 | [0542-01-matrix](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0542-01-matrix) |
+| [0764-largest-plus-sign](https://github.com/Aadarsh-aadi/Leetcode-and-GeeksForGeek/tree/master/0764-largest-plus-sign) |
 ## String
 |  |
 | ------- |
